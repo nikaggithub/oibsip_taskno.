@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.MY{
+    width: 12%;
+    object-fit: contain;
+    mix-blend-mode:color-burn ;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #9cb7e8;
+}
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: blue;
+}
+.detail {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detail h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span {
+    color: rgb(53, 47, 92);
+}
+.detail p{
+    color: #343030;
+    line-height: 22px;
+}
+.detail a{
+    background: #e36c6c;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.images{
+    width:45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images .shape{
+    width: 75%;
+    height: 70%;
+}
+.images .nik {
+    width: 55%;
+    height: 70%;
+}
+.images:hover .shape{
+    bottom: 20px;
+}
+.images:hover .nik{
+    bottom: 20px;
+}
+footer{
+    background-color: #181818;
+    color: #7f7f7f;
+    padding: 50px 0;
+    font-size: 14px;
+    
+}
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+footer .title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+}
+footer p{
+    margin-bottom: 10px;
+
+}
+footer .linksContainer ul li a {
+    text-decoration: none;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+footer .newsLetterContainer img {
+    height: 40px;
+    margin-bottom: 11px;
+}
+footer .newsLetterContainer input {
+    background-color: transparent;
+    border: 1px solid #7f7f7f;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 10px;
+    color: #ccc;
+    border-radius: 30px;
+    
+}
